@@ -17,7 +17,7 @@ No point re-inventing the wheel though, this was here so it's being modified to 
   - D2 to controller serial data
   - D4 to PIF reset pin
 
-There are 2 places to grab the serial stream from the controller from dependant on the N64 revision. Either directly off the PIF chip leg or a via nearby.
+There are 2 places to grab the serial stream from the controller dependant on the N64 revision. Either directly off the PIF chip leg or a via nearby.
 You need to grab the right point for your board.
 
 The reset pin does not differ though.
