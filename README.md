@@ -24,3 +24,5 @@ The reset pin does not differ though.
 Alternatively, you could grab the points off under the board for reset and the controllers centre pin is the serial transmission captured. 
 
 For power, 5v regulator output, for ground the space on the rear of the 5v regulator (where it mounts to sit flush) is good. 
+
+And remember folks, those ED64 / ED64 PLUS won't save your games without resetting before a power off!
