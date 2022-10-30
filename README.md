@@ -1,6 +1,6 @@
 # Atmega-N64-IGR-
 N64 In game reset using 168P / 328P Atmega MCU
-L+R+A+B+Z
+#IGR COMBO: L+R+A+B+Z
 
 
 Needs to run off 5v as 3.3v won't cut it for some reason.
