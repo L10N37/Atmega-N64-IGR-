@@ -1,0 +1,12 @@
+Initial release was polling every 500ms and checking for the reset combo, if found it would react *instantly* with a reset.
+There was zero room for error.
+It didn't have extensive testing, but I've sunk quite a few hours in with a public holiday tomorrow.
+
+Random resets - at any time
+
+This re-release polls every 100ms, but requires the reset combo to be found for 10 checks in a row @ ~100ms intervals 
+(well 100ms + how ever long the code takes to run).
+
+Basically it leaves room for error, you hold the combo for a full second until it reacts with the reset.
+
+Combo remains L+R+A+B+Z
