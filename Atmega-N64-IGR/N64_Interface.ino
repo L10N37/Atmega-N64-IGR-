@@ -39,7 +39,7 @@ void setup() {
 
 void loop() {
   
-  delay(100);
+  delay(250);
   noInterrupts(); //Disable interrupts, they interfere with timings.
   interface.sendStatusQuery(); //This is how we send the status query (1 byte).
   interface.receiveStatus(status); //This is how we receive the status response (4 bytes).
