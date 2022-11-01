@@ -103,7 +103,7 @@ void IGR(const N64_Status& status) {
   if (status.buttons1 & BUTTON_A && status.buttons1 & BUTTON_B && status.buttons1 & BUTTON_Z && status.buttons2 & BUTTON_L && status.buttons2 && BUTTON_R) timer++;  // Wanted to use START instead of Z but this can't catch that combo for some reason.
   else timer = 0x00;
   
-  if (timer == 10) rst;
+  if (timer == 4) rst;
 }
 
 
