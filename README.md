@@ -16,6 +16,8 @@ No point re-inventing the wheel though, this was here so it's being modified to 
   - Gnd to a Ground point
   - D2 to controller serial data via 120r resistor
   - D4 to PIF reset pin
+  
+  You may want to experiment with the resistor value, it's there as a filter and prevents phantom button presses
 
 There are 2 places to grab the serial stream from the controller dependant on the N64 revision. Either directly off the PIF chip leg or a via nearby.
 You need to grab the right point for your board.
